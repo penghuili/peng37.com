@@ -1,115 +1,141 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import { Heading } from "grommet";
+import { useEffect } from "react";
 
-export default function Home() {
+import IFrame from "../components/IFrame";
+import Layout from "../components/layout";
+import Product from "../components/Product";
+import Divider from "../shared/react-pure/Divider";
+import Spacer from "../shared/react-pure/Spacer";
+
+function messageListner(e) {
+  if (e.data.source === "art.peng.kiwi") {
+    const id = "#art_peng_kiwi";
+    const iframe = document.querySelector(id);
+    iframe.style.height = `${e.data.height}px`;
+  }
+}
+
+export default function Home({ allPostsData }) {
+  useEffect(() => {
+    window.addEventListener("message", messageListner);
+    return () => window.removeEventListener("message", messageListner);
+  }, []);
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
+      <Heading margin="2rem 0">
+        I build stuff for <strong>You</strong>,<br />I also use them.
+      </Heading>
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+      <Product
+        date="2023-02-26"
+        logo="/images/link37.png"
+        link="https://link37.peng.kiwi"
+        name="Link37"
+        pitch="Your browser's start page, encrypted."
+        huntName="link37"
+        huntId="381785"
+      />
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+      <Product
+        date="2023-02-08"
+        logo="/images/watcher37.png"
+        link="https://watcher37.peng.kiwi"
+        name="Watcher37"
+        pitch="Get notified when web pages change, encrypted."
+        huntName="pagewatcher"
+        huntId="378493"
+      />
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      <Product
+        date="2022-12-18"
+        logo="/images/encrypt37.jpg"
+        link="https://github.com/penghuili/Encrypt37"
+        name="Encrypt37"
+        pitch="Encrypt and share."
+      />
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
+      <Spacer size="120px" />
+      <Divider />
+      <Spacer size="120px" />
 
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
+      <Product
+        date="2022-08-14"
+        logo="/images/precloud.png"
+        link="https://github.com/penghuili/PreCloud"
+        name="PreCloud"
+        pitch="Encrypt before upload."
+        huntName="precloud"
+        huntId="355893"
+      />
 
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  )
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
+
+      <Product
+        date="2021-11-02"
+        logo="/images/glyph.png"
+        link="https://glyph.peng.kiwi"
+        name="Glyph"
+        pitch="Art like the famous Autoglyph."
+        huntName="glyph-4"
+        huntId="320262"
+      />
+      <Spacer size="1rem" />
+      <IFrame
+        src="https://glyph.peng.kiwi/embed"
+        width={290}
+        innerWidth={290}
+        height={314}
+        title="glyph.peng.kiwi"
+      />
+
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
+
+      <Product
+        date="2021-10-02"
+        logo="/images/wikiart.png"
+        link="https://art.peng.kiwi"
+        name="Wikiart"
+        pitch="250.000 artworks in one place."
+      />
+      <Spacer size="1rem" />
+      <IFrame
+        src="https://art.peng.kiwi/embed"
+        width={290}
+        innerWidth={290}
+        height="auto"
+        id="art_peng_kiwi"
+        title="art.peng.kiwi"
+      />
+
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
+
+      <Product
+        date="2021-10-02"
+        logo="/images/paint-with-code.png"
+        link="https://paintwithcode.peng.kiwi"
+        name="Paint with codes"
+        huntName="codify-images"
+        huntId="318634"
+      />
+    </Layout>
+  );
 }
