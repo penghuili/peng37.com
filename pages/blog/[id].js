@@ -33,7 +33,7 @@ export default function Post({ postData }) {
         {postData.title}
       </Heading>
       <Text>{format(new Date(postData.date), "yyyy-MM-dd")}</Text>
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div className='peng-blog' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   );
 }
