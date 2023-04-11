@@ -6,7 +6,7 @@ body * {
 /* image in blog */
 .peng-blog img[src^="/images/blog"] {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 /* code block in blog */
