@@ -26,7 +26,7 @@ export async function getStaticProps({ params }) {
 
 export default function Post({ postData }) {
   return (
-    <Layout title={postData.title}>
+    <Layout title={postData.title} ogImage={postData.previewImage}>
       <Spacer />
       <NextLink href="/blog"><LinkPrevious /></NextLink>
       <Heading margin="1rem 0">

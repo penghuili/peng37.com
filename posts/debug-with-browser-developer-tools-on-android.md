@@ -1,6 +1,7 @@
 ---
 title: "Debug with browser developer tools on Android"
 date: "2023-02-26"
+previewImage: "https://www.peng.kiwi/images/blog/debug-with-browser-developer-tools-on-android-1.avif"
 ---
 
 I am building [Watcher37](https://watcher37.peng.kiwi/), a key step is to find the CSS selector of an element.

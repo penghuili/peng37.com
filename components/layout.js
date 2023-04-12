@@ -24,6 +24,15 @@ export default function Layout({ children, title, description, ogImage }) {
         <meta property="og:description" content={description || defaultTitle} />
         {!!ogImage && <meta property="og:image" content={ogImage} />}
 
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@penghuili22" />
+        <meta name="twitter:title" content={title || defaultTitle} />
+        <meta
+          name="twitter:description"
+          content={description || defaultTitle}
+        />
+        {!!ogImage && <meta name="twitter:image" content={ogImage} />}
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"

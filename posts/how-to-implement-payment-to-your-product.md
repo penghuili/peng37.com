@@ -1,6 +1,7 @@
 ---
 title: "How to implement payment to your product?"
 date: "2023-04-10"
+previewImage: "https://www.peng.kiwi/images/blog/how-to-implement-payment-to-your-product-1.png"
 ---
 
 I am building [Watcher37](https://watcher37.peng.kiwi/) and [Link37](https://link37.peng.kiwi/), and I want to add payment functionality to them. But I also don't want to spend too much time on this.
