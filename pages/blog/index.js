@@ -27,7 +27,7 @@ export default function Blog({ allPostsData }) {
 
       {allPostsData.map(({ id, date, title }) => (
         <Box key={id} margin="0 0 1rem">
-          <NextLink href={`/blog/${id}`}>{title}</NextLink>
+          <NextLink href={`/blog/${id}`} className="peng-blog-item">{title}</NextLink>
           <Text>{format(new Date(date), "yyyy-MM-dd")}</Text>
         </Box>
       ))}

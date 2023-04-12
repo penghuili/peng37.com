@@ -15,7 +15,7 @@ function messageListner(e) {
   }
 }
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   useEffect(() => {
     window.addEventListener("message", messageListner);
     return () => window.removeEventListener("message", messageListner);

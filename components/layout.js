@@ -1,24 +1,29 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import AppContainer from '../shared/react-pure/AppContainer';
-import ContentWrapper from '../shared/react-pure/ContentWrapper';
-import createTheme from '../shared/react-pure/createTheme';
-import Divider from '../shared/react-pure/Divider';
-import Spacer from '../shared/react-pure/Spacer';
-import NextLink from './NextLink';
+import AppContainer from "../shared/react-pure/AppContainer";
+import ContentWrapper from "../shared/react-pure/ContentWrapper";
+import createTheme from "../shared/react-pure/createTheme";
+import Divider from "../shared/react-pure/Divider";
+import Spacer from "../shared/react-pure/Spacer";
+import NextLink from "./NextLink";
 
 export const siteTitle = "peng.kiwi";
 
 const theme = createTheme("#D2356E");
 
-export default function Layout({ children, title, description }) {
+export default function Layout({ children, title, description, ogImage }) {
+  const defaultTitle = "peng.kiwi - Creator of Watcher37, Link37, Encrypt37";
   return (
     <AppContainer theme={theme} themeMode="dark">
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{title || "peng.kiwi"}</title>
-        <meta name="description" content={description || "peng.kiwi"} />˝
+        <title>{title || defaultTitle}</title>
+        <meta name="description" content={description || defaultTitle} />
+        <meta property="og:title" content={title || defaultTitle} />
+        <meta property="og:description" content={description || defaultTitle} />
+        {!!ogImage && <meta property="og:image" content={ogImage} />}
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"
