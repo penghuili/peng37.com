@@ -1,11 +1,11 @@
-import { format } from 'date-fns';
-import { Heading, Text } from 'grommet';
-import { LinkPrevious } from 'grommet-icons';
+import { format } from "date-fns";
+import { Heading, Text } from "grommet";
+import { LinkPrevious } from "grommet-icons";
 
-import Layout from '../../components/layout';
-import NextLink from '../../components/NextLink';
-import { getAllPostIds, getPostData } from '../../lib/posts';
-import Spacer from '../../shared/react-pure/Spacer';
+import Layout from "../../components/layout";
+import NextLink from "../../components/NextLink";
+import { getAllPostIds, getPostData } from "../../lib/posts";
+import Spacer from "../../shared/react-pure/Spacer";
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -26,14 +26,21 @@ export async function getStaticProps({ params }) {
 
 export default function Post({ postData }) {
   return (
-    <Layout title={postData.title} ogImage={postData.previewImage}>
+    <Layout
+      title={postData.title}
+      ogType="article"
+      ogImage={postData.previewImage}
+    >
       <Spacer />
-      <NextLink href="/blog"><LinkPrevious /></NextLink>
-      <Heading margin="1rem 0">
-        {postData.title}
-      </Heading>
+      <NextLink href="/blog">
+        <LinkPrevious />
+      </NextLink>
+      <Heading margin="1rem 0">{postData.title}</Heading>
       <Text>{format(new Date(postData.date), "yyyy-MM-dd")}</Text>
-      <div className='peng-blog' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div
+        className="peng-blog"
+        dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+      />
     </Layout>
   );
 }

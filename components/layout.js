@@ -10,19 +10,29 @@ import NextLink from "./NextLink";
 export const siteTitle = "peng.kiwi";
 
 const theme = createTheme("#D2356E");
+const defaultTitle = "peng.kiwi - Creator of Watcher37, Link37, Encrypt37";
+const avatarImage = "https://www.peng.kiwi/images/android-icon-192x192.png";
 
-export default function Layout({ children, title, description, ogImage }) {
-  const defaultTitle = "peng.kiwi - Creator of Watcher37, Link37, Encrypt37";
+export default function Layout({
+  children,
+  title,
+  description,
+  ogType,
+  ogImage,
+}) {
   return (
     <AppContainer theme={theme} themeMode="dark">
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <title>{title || defaultTitle}</title>
         <meta name="description" content={description || defaultTitle} />
+
+        <meta property="og:type" content={ogType || "website"} />
         <meta property="og:title" content={title || defaultTitle} />
         <meta property="og:description" content={description || defaultTitle} />
-        {!!ogImage && <meta property="og:image" content={ogImage} />}
+        <meta property="og:image" content={ogImage || avatarImage} />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@penghuili22" />
@@ -31,7 +41,7 @@ export default function Layout({ children, title, description, ogImage }) {
           name="twitter:description"
           content={description || defaultTitle}
         />
-        {!!ogImage && <meta name="twitter:image" content={ogImage} />}
+        <meta name="twitter:image" content={ogImage || avatarImage} />
 
         <link
           rel="apple-touch-icon"
