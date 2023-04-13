@@ -23,13 +23,13 @@ export default function Home() {
 
   return (
     <Layout>
-      <Heading margin="2rem 0">
+      <Heading margin="2rem 0 0">
         I build stuff for <strong>You</strong>,<br />I also use them.
       </Heading>
 
-      <Spacer size="48px" />
+      <Spacer size="4rem" />
       <Divider />
-      <Spacer size="48px" />
+      <Spacer size="2rem" />
 
       <Product
         date="2023-02-26"

@@ -23,6 +23,7 @@ export default function Layout({
   description,
   ogType,
   ogImage,
+  footer,
 }) {
   const router = useRouter();
 
@@ -137,22 +138,29 @@ export default function Layout({
         <Spacer size="3rem" />
         <Divider />
         <Spacer />
-        <footer>
-          {router.pathname !== "/" && (
-            <NextLink href="/" margin="0 1rem 0 0">
-              Home
+        {footer ? (
+          footer
+        ) : (
+          <footer>
+            {router.pathname !== "/" && (
+              <NextLink href="/" margin="0 1rem 0 0">
+                Home
+              </NextLink>
+            )}
+            <NextLink href="/blog" margin="0 1rem 0 0">
+              Blog
             </NextLink>
-          )}
-          <NextLink href="/blog" margin="0 1rem 0 0">
-            Blog
-          </NextLink>
-          <NextLink href="/contact" margin="0 1rem 0 0">
-            Contact
-          </NextLink>
-          <NextLink href="https://www.buymeacoffee.com/peng37" target="_blank">
-            Buy me a coffee
-          </NextLink>
-        </footer>
+            <NextLink href="/contact" margin="0 1rem 0 0">
+              Contact
+            </NextLink>
+            <NextLink
+              href="https://www.buymeacoffee.com/peng37"
+              target="_blank"
+            >
+              Buy me a coffee
+            </NextLink>
+          </footer>
+        )}
       </ContentWrapper>
     </AppContainer>
   );
