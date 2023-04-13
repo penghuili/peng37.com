@@ -16,7 +16,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Blog({ allPostsData }) {
+export default function Link37({ allPostsData }) {
   return (
     <Layout hasBack title="Blog - peng.kiwi">
       <Heading margin="1rem 0">Blog</Heading>

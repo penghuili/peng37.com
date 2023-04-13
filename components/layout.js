@@ -6,6 +6,8 @@ import createTheme from "../shared/react-pure/createTheme";
 import Divider from "../shared/react-pure/Divider";
 import Spacer from "../shared/react-pure/Spacer";
 import NextLink from "./NextLink";
+import { useRouter } from "next/router";
+import { LinkPrevious } from "grommet-icons";
 
 export const siteTitle = "peng.kiwi";
 
@@ -15,11 +17,15 @@ const avatarImage = "https://www.peng.kiwi/images/android-icon-192x192.png";
 
 export default function Layout({
   children,
+  hasBack,
+  backPath = "/",
   title,
   description,
   ogType,
   ogImage,
 }) {
+  const router = useRouter();
+
   return (
     <AppContainer theme={theme} themeMode="dark">
       <Head>
@@ -116,12 +122,27 @@ export default function Layout({
       </Head>
 
       <ContentWrapper>
+        {hasBack && (
+          <>
+            <Spacer />
+            <NextLink href={backPath}>
+              <LinkPrevious />
+            </NextLink>
+            <Spacer />
+          </>
+        )}
+
         {children}
 
         <Spacer size="3rem" />
         <Divider />
         <Spacer />
         <footer>
+          {router.pathname !== "/" && (
+            <NextLink href="/" margin="0 1rem 0 0">
+              Home
+            </NextLink>
+          )}
           <NextLink href="/blog" margin="0 1rem 0 0">
             Blog
           </NextLink>

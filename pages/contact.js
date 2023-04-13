@@ -8,11 +8,7 @@ import Spacer from '../shared/react-pure/Spacer';
 
 export default function Contact() {
   return (
-    <Layout title="Contact - peng.kiwi">
-      <Spacer />
-      <NextLink href="/">
-        <LinkPrevious />
-      </NextLink>
+    <Layout hasBack title="Contact - peng.kiwi">
       <Heading margin="1rem 0">Contact</Heading>
 
       <HorizontalCenter>

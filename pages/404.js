@@ -1,17 +1,13 @@
-import { Heading } from 'grommet';
-import { LinkPrevious } from 'grommet-icons';
+import { Heading } from "grommet";
+import { LinkPrevious } from "grommet-icons";
 
-import Layout from '../components/layout';
-import NextLink from '../components/NextLink';
-import Spacer from '../shared/react-pure/Spacer';
+import Layout from "../components/layout";
+import NextLink from "../components/NextLink";
+import Spacer from "../shared/react-pure/Spacer";
 
 export default function Custom404() {
   return (
-    <Layout title="Page Not Found - peng.kiwi">
-      <Spacer />
-      <NextLink href="/">
-        <LinkPrevious />
-      </NextLink>
+    <Layout hasBack title="Page Not Found - peng.kiwi">
       <Heading margin="1rem 0">404 - Page Not Found</Heading>
     </Layout>
   );

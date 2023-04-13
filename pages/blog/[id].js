@@ -27,14 +27,11 @@ export async function getStaticProps({ params }) {
 export default function Post({ postData }) {
   return (
     <Layout
+      hasBack
       title={postData.title}
       ogType="article"
       ogImage={postData.previewImage}
     >
-      <Spacer />
-      <NextLink href="/blog">
-        <LinkPrevious />
-      </NextLink>
       <Heading margin="1rem 0">{postData.title}</Heading>
       <Text>{format(new Date(postData.date), "yyyy-MM-dd")}</Text>
       <div

@@ -1,12 +1,21 @@
-import { format } from 'date-fns';
-import { Box, Text } from 'grommet';
-import React from 'react';
+import { format } from "date-fns";
+import { Box, Text } from "grommet";
+import React from "react";
 
-import NextLink from './NextLink';
-import ProductHunt from './ProductHunt';
-import ProductName from './ProductName';
+import NextLink from "./NextLink";
+import ProductHunt from "./ProductHunt";
+import ProductName from "./ProductName";
 
-function Product({ date, logo, link, name, pitch, huntName, huntId }) {
+function Product({
+  date,
+  logo,
+  link,
+  linkTarget = "_blank",
+  name,
+  pitch,
+  huntName,
+  huntId,
+}) {
   return (
     <Box>
       <Text>{format(new Date(date), "MMMM yyyy")}</Text>
@@ -15,7 +24,7 @@ function Product({ date, logo, link, name, pitch, huntName, huntId }) {
         link={
           <NextLink
             href={link}
-            target="_blank"
+            target={linkTarget}
             style={{ fontSize: "2rem", fontWeight: "bold" }}
           >
             {name}

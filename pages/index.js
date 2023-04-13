@@ -34,7 +34,8 @@ export default function Home() {
       <Product
         date="2023-02-26"
         logo="/images/link37.png"
-        link="https://link37.peng.kiwi"
+        link="/link37"
+        linkTarget="_self"
         name="Link37"
         pitch="Your browser's start page, encrypted."
         huntName="link37"
