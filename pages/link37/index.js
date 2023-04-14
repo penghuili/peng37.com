@@ -13,7 +13,11 @@ const pitch = "Your browser's start page, encrypted.";
 
 export default function Link37() {
   return (
-    <Layout title={`Link37: ${pitch}`} footer={<Link37Footer />}>
+    <Layout
+      title={`Link37: ${pitch}`}
+      footer={<Link37Footer />}
+      ogImage="/images/link37.png"
+    >
       <HorizontalCenter margin="2rem 0 0">
         <Image src="/images/link37.png" width={48} height={48} />
         <Heading color={colors.link37} margin="0 0 0 1rem">
@@ -94,6 +98,13 @@ export default function Link37() {
       <Text margin="0.5rem 0 0">
         4. Your links are saved in big companies' servers, without encryption;
       </Text>
+      <Text margin="0.5rem 0 0" weight="bold" color={colors.link37}>
+        You should:
+      </Text>
+      <Text margin="0.5rem 0 0">1. Create a Link37 page;;</Text>
+      <Text margin="0.5rem 0 0">2. Add your links;</Text>
+      <Text margin="0.5rem 0 0">3. Set it as your browser's start page;</Text>
+      <Text margin="0.5rem 0 0">4. Never go back to bookmarks.</Text>
 
       <Spacer size="2rem" />
       <Divider />
@@ -109,7 +120,10 @@ export default function Link37() {
 
       <Heading margin="0">Pricing</Heading>
       <Text margin="0.5rem 0 0">
-        14 days free trial, then it's only{" "}
+        14 days free trial, then it's{" "}
+        <Text weight="bold" size="1.5rem">
+          only
+        </Text>{" "}
         <Text color={colors.link37} size="2rem">
           $19/Year
         </Text>
@@ -128,6 +142,7 @@ export default function Link37() {
       >
         Start &gt;&gt;
       </NextLink>
+      <Spacer size="2rem" />
     </Layout>
   );
 }

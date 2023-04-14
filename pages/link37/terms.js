@@ -1,9 +1,9 @@
-import { Heading, Text } from 'grommet';
+import { Heading, Text } from "grommet";
 
-import Layout from '../../components/layout';
-import Link37Footer from '../../components/Link37Footer';
-import NextLink from '../../components/NextLink';
-import { contactEmail } from '../../shared/js/constants';
+import Layout from "../../components/layout";
+import Link37Footer from "../../components/Link37Footer";
+import NextLink from "../../components/NextLink";
+import { contactEmail } from "../../shared/js/constants";
 
 export default function Terms() {
   return (
@@ -12,6 +12,7 @@ export default function Terms() {
       backPath="/link37"
       title="Link37: Terms"
       footer={<Link37Footer />}
+      ogImage="/images/link37.png"
     >
       <Heading margin="1rem 0">Link37 terms</Heading>
 

@@ -12,6 +12,7 @@ export default function Privacy() {
       backPath="/link37"
       title="Link37: Privacy"
       footer={<Link37Footer />}
+      ogImage="/images/link37.png"
     >
       <Heading margin="1rem 0">Link37 privacy</Heading>
       <Text>

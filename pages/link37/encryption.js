@@ -11,6 +11,7 @@ export default function Encryption() {
       backPath="/link37"
       title="Link37: How encryption works in Link37?"
       footer={<Link37Footer />}
+      ogImage="/images/link37.png"
     >
       <Heading margin="1rem 0">How encryption works in Link37?</Heading>
 
