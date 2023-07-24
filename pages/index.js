@@ -32,6 +32,18 @@ export default function Home() {
       <Spacer size="2rem" />
 
       <Product
+        date="2023-07-24"
+        logo="/images/often37.png"
+        link="https://often37.peng.kiwi/"
+        name="Often37"
+        pitch="Know how often things happen, encrypted."
+      />
+
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
+
+      <Product
         date="2023-02-26"
         logo="/images/link37.png"
         link="/link37"
