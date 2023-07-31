@@ -35,7 +35,7 @@ export default function Home() {
         logo="/images/friend37.png"
         link="https://friend37.peng.kiwi/"
         name="Friend37"
-        pitch="Keep friends, encrypted."
+        pitch="Keep friends. Encrypted."
       />
 
       <Spacer size="48px" />
@@ -47,7 +47,7 @@ export default function Home() {
         logo="/images/often37.png"
         link="https://often37.peng.kiwi/"
         name="Often37"
-        pitch="Know how often things happen, encrypted."
+        pitch="Know how often things happen. Encrypted."
       />
 
       <Spacer size="48px" />
@@ -60,7 +60,7 @@ export default function Home() {
         link="/link37"
         linkTarget="_self"
         name="Link37"
-        pitch="Your browser's start page, encrypted."
+        pitch="Your browser's start page. Encrypted."
         huntName="link37"
         huntId="381785"
       />
@@ -74,7 +74,7 @@ export default function Home() {
         logo="/images/watcher37.png"
         link="https://watcher37.peng.kiwi"
         name="Watcher37"
-        pitch="Get notified when web pages change, encrypted."
+        pitch="Get notified when web pages change. Encrypted."
         huntName="pagewatcher"
         huntId="378493"
       />
