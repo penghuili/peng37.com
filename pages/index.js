@@ -1,10 +1,10 @@
-import { Heading } from 'grommet';
-import { useEffect } from 'react';
+import { Heading } from "grommet";
+import { useEffect } from "react";
 
-import Layout from '../components/layout';
-import Product from '../components/Product';
-import Divider from '../shared/react-pure/Divider';
-import Spacer from '../shared/react-pure/Spacer';
+import Layout from "../components/layout";
+import Product from "../components/Product";
+import Divider from "../shared/react-pure/Divider";
+import Spacer from "../shared/react-pure/Spacer";
 
 function messageListner(e) {
   if (e.data.source === "art.peng.kiwi") {
@@ -23,7 +23,8 @@ export default function Home() {
   return (
     <Layout>
       <Heading margin="2rem 0 0">
-        I build stuff for <strong>You</strong>,<br />I also use them.
+        I build <strong>Encrypted</strong> stuff for <strong>You</strong>,<br />
+        I also use them.
       </Heading>
 
       <Spacer size="4rem" />
