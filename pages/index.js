@@ -1,11 +1,10 @@
-import { Heading } from "grommet";
-import { useEffect } from "react";
+import { Heading } from 'grommet';
+import { useEffect } from 'react';
 
-import IFrame from "../components/IFrame";
-import Layout from "../components/layout";
-import Product from "../components/Product";
-import Divider from "../shared/react-pure/Divider";
-import Spacer from "../shared/react-pure/Spacer";
+import Layout from '../components/layout';
+import Product from '../components/Product';
+import Divider from '../shared/react-pure/Divider';
+import Spacer from '../shared/react-pure/Spacer';
 
 function messageListner(e) {
   if (e.data.source === "art.peng.kiwi") {
@@ -90,76 +89,6 @@ export default function Home() {
         link="https://github.com/penghuili/Encrypt37"
         name="Encrypt37"
         pitch="Encrypt and share."
-      />
-
-      <Spacer size="120px" />
-      <Divider />
-      <Spacer size="120px" />
-
-      <Product
-        date="2022-08-14"
-        logo="/images/precloud.png"
-        link="https://github.com/penghuili/PreCloud"
-        name="PreCloud"
-        pitch="Encrypt before upload."
-        huntName="precloud"
-        huntId="355893"
-      />
-
-      <Spacer size="48px" />
-      <Divider />
-      <Spacer size="48px" />
-
-      <Product
-        date="2021-11-02"
-        logo="/images/glyph.png"
-        link="https://glyph.peng.kiwi"
-        name="Glyph"
-        pitch="Art like the famous Autoglyph."
-        huntName="glyph-4"
-        huntId="320262"
-      />
-      <Spacer size="1rem" />
-      <IFrame
-        src="https://glyph.peng.kiwi/embed"
-        width={290}
-        innerWidth={290}
-        height={314}
-        title="glyph.peng.kiwi"
-      />
-
-      <Spacer size="48px" />
-      <Divider />
-      <Spacer size="48px" />
-
-      <Product
-        date="2021-10-02"
-        logo="/images/wikiart.png"
-        link="https://art.peng.kiwi"
-        name="Wikiart"
-        pitch="250.000 artworks in one place."
-      />
-      <Spacer size="1rem" />
-      <IFrame
-        src="https://art.peng.kiwi/embed"
-        width={290}
-        innerWidth={290}
-        height="auto"
-        id="art_peng_kiwi"
-        title="art.peng.kiwi"
-      />
-
-      <Spacer size="48px" />
-      <Divider />
-      <Spacer size="48px" />
-
-      <Product
-        date="2021-10-02"
-        logo="/images/paint-with-code.png"
-        link="https://paintwithcode.peng.kiwi"
-        name="Paint with codes"
-        huntName="codify-images"
-        huntId="318634"
       />
     </Layout>
   );
