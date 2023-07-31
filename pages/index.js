@@ -32,6 +32,18 @@ export default function Home() {
       <Spacer size="2rem" />
 
       <Product
+        date="2023-07-31"
+        logo="/images/friend37.png"
+        link="https://friend37.peng.kiwi/"
+        name="Friend37"
+        pitch="Keep friends, encrypted."
+      />
+
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
+
+      <Product
         date="2023-07-24"
         logo="/images/often37.png"
         link="https://often37.peng.kiwi/"
