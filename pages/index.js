@@ -27,6 +27,10 @@ export default function Home() {
         without encryption?
       </Heading>
 
+      <Heading level="2" margin="2rem 0 0">
+        Every product below is encrypted. No one can read your data.
+      </Heading>
+
       <Spacer size="4rem" />
       <Divider />
       <Spacer size="2rem" />
