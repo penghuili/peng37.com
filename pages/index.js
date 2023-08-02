@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <Layout>
       <Heading margin="2rem 0 0">
-        I build <strong>Encrypted</strong> stuff for <strong>You</strong>,<br />
-        I also use them.
+        Do you feel comfortable sending your personal data to their servers,
+        without encryption?
       </Heading>
 
       <Spacer size="4rem" />
