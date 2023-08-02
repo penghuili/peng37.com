@@ -9,11 +9,11 @@ import NextLink from "./NextLink";
 import { useRouter } from "next/router";
 import { LinkPrevious } from "grommet-icons";
 
-export const siteTitle = "peng.kiwi";
+export const siteTitle = "peng37.com";
 
 const theme = createTheme("#D2356E");
-const defaultTitle = "peng.kiwi - Creator of Watcher37, Link37, Encrypt37";
-const avatarImage = "https://www.peng.kiwi/images/android-icon-192x192.png";
+const defaultTitle = "peng37.com - Creator of Watcher37, Link37, Often37, Friend37, Encrypt37";
+const avatarImage = "https://peng37.com/images/android-icon-192x192.png";
 
 export default function Layout({
   children,

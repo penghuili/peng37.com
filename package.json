@@ -5,10 +5,10 @@
     "copyshared": "rm -rf shared && mkdir shared && cp -a ../sharedjs/lib/js shared/js && cp -a ../sharedjs/lib/react-pure shared/react-pure",
     "deploy": "npm run build && npm run upload && npm run invalidate",
     "dev": "next dev",
-    "invalidate": "aws cloudfront create-invalidation --distribution-id E2M15M6CUB5GCX --paths \"/\"",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E3AZKUZ20BU7ZI --paths \"/\"",
     "newpost": "node scripts/new-post.js",
     "start": "next start",
-    "upload": "aws s3 sync out s3://www.peng.kiwi --delete --cache-control max-age=0,no-cache,no-store,must-revalidate"
+    "upload": "aws s3 sync out s3://peng37.com --delete --cache-control max-age=0,no-cache,no-store,must-revalidate"
   },
   "dependencies": {
     "date-fns": "2.29.3",
@@ -19,7 +19,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remark": "14.0.2",
-    "remark-external-links": "^9.0.1",
+    "remark-external-links": "9.0.1",
     "remark-html": "15.0.2",
     "styled-components": "5.3.9"
   }

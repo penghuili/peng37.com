@@ -8,7 +8,7 @@ import Spacer from '../shared/react-pure/Spacer';
 
 export default function Contact() {
   return (
-    <Layout hasBack title="Contact - peng.kiwi">
+    <Layout hasBack title="Contact - peng37.com">
       <Heading margin="1rem 0">Contact</Heading>
 
       <HorizontalCenter>
@@ -18,8 +18,8 @@ export default function Contact() {
       <HorizontalCenter margin="1rem 0 0">
         <Twitter />
         <Box width="1rem" />
-        <NextLink href="https://twitter.com/penghuili22/" target="_blank">
-          penghuili22
+        <NextLink href="https://twitter.com/peng37com/" target="_blank">
+          peng37com
         </NextLink>
       </HorizontalCenter>
     </Layout>

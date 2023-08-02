@@ -28,7 +28,7 @@ export default function Link37() {
         {pitch}
       </Heading>
       <NextLink
-        href="https://link37.peng.kiwi/"
+        href="https://link.peng37.com/"
         target="_blank"
         style={{
           color: colors.link37,
@@ -48,7 +48,7 @@ export default function Link37() {
       </Heading>
       <Text>
         Check an{" "}
-        <NextLink href="https://link37.peng.kiwi/p/szrPwXfCnIp" target="_blank">
+        <NextLink href="https://link.peng37.com/p/szrPwXfCnIp" target="_blank">
           example
         </NextLink>
       </Text>
@@ -76,7 +76,7 @@ export default function Link37() {
       </Heading>
       <Text>
         The{" "}
-        <NextLink href="https://link37.peng.kiwi/p/szrPwXfCnIp" target="_blank">
+        <NextLink href="https://link.peng37.com/p/szrPwXfCnIp" target="_blank">
           example
         </NextLink>{" "}
         above is a public page
@@ -132,7 +132,7 @@ export default function Link37() {
       <Spacer size="2rem" />
 
       <NextLink
-        href="https://link37.peng.kiwi/"
+        href="https://link.peng37.com/"
         target="_blank"
         style={{
           color: colors.link37,

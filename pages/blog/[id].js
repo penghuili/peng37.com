@@ -1,11 +1,8 @@
-import { format } from "date-fns";
-import { Heading, Text } from "grommet";
-import { LinkPrevious } from "grommet-icons";
+import { format } from 'date-fns';
+import { Heading, Text } from 'grommet';
 
-import Layout from "../../components/layout";
-import NextLink from "../../components/NextLink";
-import { getAllPostIds, getPostData } from "../../lib/posts";
-import Spacer from "../../shared/react-pure/Spacer";
+import Layout from '../../components/layout';
+import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();

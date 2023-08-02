@@ -5,7 +5,7 @@ date: "2023-03-04"
 
 For normal websites, when you signup, you need to send your email and plaintext password to the backend, then the backend hashes the password and saves it to DB. Google, Facebook, and Apple all do this.
 
-I implement the auth for [Watcher37](https://watcher37.peng.kiwi/) and [Link37](https://link37.peng.kiwi/) in a different way, in an end-to-end encryption way, with the famous [openpgpjs](https://github.com/openpgpjs/openpgpjs) library (used by [Proton](https://proton.me/)). This is how it works.
+I implement the auth for [Watcher37](https://watcher.peng37.com/) and [Link37](https://link.peng37.com/) in a different way, in an end-to-end encryption way, with the famous [openpgpjs](https://github.com/openpgpjs/openpgpjs) library (used by [Proton](https://proton.me/)). This is how it works.
 
 ## When you signup:
 
@@ -28,4 +28,4 @@ So again, your password never leaves your device!!!
 
 The project is open-sourced: [https://github.com/penghuili/auth](https://github.com/penghuili/auth).
 
-And try [Watcher37](https://watcher37.peng.kiwi/) and [Link37](https://link37.peng.kiwi/) to see how it works in action :)
+And try [Watcher37](https://watcher.peng37.com/) and [Link37](https://link.peng37.com/) to see how it works in action :)

@@ -1,12 +1,12 @@
 ---
 title: "Debug with browser developer tools on Android"
 date: "2023-02-26"
-previewImage: "https://www.peng.kiwi/images/blog/debug-with-browser-developer-tools-on-android-1.avif"
+previewImage: "https://peng37.com/images/blog/debug-with-browser-developer-tools-on-android-1.avif"
 ---
 
-I am building [Watcher37](https://watcher37.peng.kiwi/), a key step is to find the CSS selector of an element.
+I am building [Watcher37](https://watcher.peng37.com/), a key step is to find the CSS selector of an element.
 
-It's super easy to [do this on a computer](https://watcher.peng.kiwi/selector) with browser dev tools.
+It's super easy to [do this on a computer](https://watcher.peng37.com/selector) with browser dev tools.
 
 It turns out, it's also possible to do the same with your Android phone, for example, using the [Kiwi browser](https://kiwibrowser.com/).
 
@@ -30,4 +30,4 @@ This is how I do it:
 
 ---
 
-Have fun debugging on your android, and give [Watcher37](https://watcher37.peng.kiwi/) a try.
+Have fun debugging on your android, and give [Watcher37](https://watcher.peng37.com/) a try.

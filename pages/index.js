@@ -1,25 +1,11 @@
-import { Heading } from "grommet";
-import { useEffect } from "react";
+import { Heading } from 'grommet';
 
-import Layout from "../components/layout";
-import Product from "../components/Product";
-import Divider from "../shared/react-pure/Divider";
-import Spacer from "../shared/react-pure/Spacer";
-
-function messageListner(e) {
-  if (e.data.source === "art.peng.kiwi") {
-    const id = "#art_peng_kiwi";
-    const iframe = document.querySelector(id);
-    iframe.style.height = `${e.data.height}px`;
-  }
-}
+import Layout from '../components/layout';
+import Product from '../components/Product';
+import Divider from '../shared/react-pure/Divider';
+import Spacer from '../shared/react-pure/Spacer';
 
 export default function Home() {
-  useEffect(() => {
-    window.addEventListener("message", messageListner);
-    return () => window.removeEventListener("message", messageListner);
-  }, []);
-
   return (
     <Layout>
       <Heading margin="2rem 0 0">
@@ -28,7 +14,7 @@ export default function Home() {
       </Heading>
 
       <Heading level="2" margin="2rem 0 0">
-        Every product below is encrypted. No one can read your data.
+        Everyhting below encrypts all your data. No one can read it but you.
       </Heading>
 
       <Spacer size="4rem" />
@@ -38,7 +24,7 @@ export default function Home() {
       <Product
         date="2023-07-31"
         logo="/images/friend37.png"
-        link="https://friend37.peng.kiwi/"
+        link="https://friend.peng37.com/"
         name="Friend37"
         pitch="Keep friends. Encrypted."
       />
@@ -50,7 +36,7 @@ export default function Home() {
       <Product
         date="2023-07-24"
         logo="/images/often37.png"
-        link="https://often37.peng.kiwi/"
+        link="https://often.peng37.com/"
         name="Often37"
         pitch="Know how often things happen. Encrypted."
       />
@@ -77,7 +63,7 @@ export default function Home() {
       <Product
         date="2023-02-08"
         logo="/images/watcher37.png"
-        link="https://watcher37.peng.kiwi"
+        link="https://watcher.peng37.com"
         name="Watcher37"
         pitch="Get notified when web pages change. Encrypted."
         huntName="pagewatcher"

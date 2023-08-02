@@ -35,4 +35,4 @@ What do you think?
 
 The project is open-sourced: [https://github.com/penghuili/auth](https://github.com/penghuili/auth).
 
-And check out the "Logout from all devices" button in my project, [Watcher37](https://watcher37.peng.kiwi/) and [Link37](https://link37.peng.kiwi/).
+And check out the "Logout from all devices" button in my project, [Watcher37](https://watcher.peng37.com/) and [Link37](https://link.peng37.com/).
