@@ -14,7 +14,7 @@ export default function Home() {
       </Heading>
 
       <Heading level="2" margin="2rem 0 0">
-        Everyhting below encrypts all your data. No one can read it but you.
+        Everything below encrypts all your data. No one can read it but you.
       </Heading>
 
       <Spacer size="4rem" />
