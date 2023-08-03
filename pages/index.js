@@ -23,7 +23,7 @@ export default function Home() {
 
       <Product
         date="2023-07-24"
-        logo="/images/note37.png"
+        logo="/images/note37.png?123"
         link="https://note.peng37.com/"
         name="Note37"
         pitch="Notes. Encrypted."
