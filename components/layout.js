@@ -12,7 +12,7 @@ import { LinkPrevious } from "grommet-icons";
 export const siteTitle = "peng37.com";
 
 const theme = createTheme("#D2356E");
-const defaultTitle = "peng37.com - Creator of Watcher37, Link37, Often37, Friend37, Encrypt37";
+const defaultTitle = "peng37.com - Creator of Watcher37, Link37, Note37, Friend37, Encrypt37";
 const avatarImage = "https://peng37.com/images/android-icon-192x192.png";
 
 export default function Layout({

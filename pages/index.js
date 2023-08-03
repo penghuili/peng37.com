@@ -1,9 +1,9 @@
-import { Heading } from 'grommet';
+import { Heading } from "grommet";
 
-import Layout from '../components/layout';
-import Product from '../components/Product';
-import Divider from '../shared/react-pure/Divider';
-import Spacer from '../shared/react-pure/Spacer';
+import Layout from "../components/layout";
+import Product from "../components/Product";
+import Divider from "../shared/react-pure/Divider";
+import Spacer from "../shared/react-pure/Spacer";
 
 export default function Home() {
   return (
@@ -22,11 +22,11 @@ export default function Home() {
       <Spacer size="2rem" />
 
       <Product
-        date="2023-07-31"
-        logo="/images/friend37.png"
-        link="https://friend.peng37.com/"
-        name="Friend37"
-        pitch="Keep friends. Encrypted."
+        date="2023-07-24"
+        logo="/images/note37.png"
+        link="https://note.peng37.com/"
+        name="Note37"
+        pitch="Notes. Encrypted."
       />
 
       <Spacer size="48px" />
@@ -34,11 +34,11 @@ export default function Home() {
       <Spacer size="48px" />
 
       <Product
-        date="2023-07-24"
-        logo="/images/often37.png"
-        link="https://often.peng37.com/"
-        name="Often37"
-        pitch="Know how often things happen. Encrypted."
+        date="2023-07-31"
+        logo="/images/friend37.png"
+        link="https://friend.peng37.com/"
+        name="Friend37"
+        pitch="Keep friends. Encrypted."
       />
 
       <Spacer size="48px" />
