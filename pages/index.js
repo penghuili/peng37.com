@@ -26,7 +26,7 @@ export default function Home() {
         logo="/images/note37.png"
         link="https://note.peng37.com/"
         name="Note37"
-        pitch="Notes. Encrypted."
+        pitch="Rich text notes. Encrypted."
       />
 
       <Spacer size="48px" />
