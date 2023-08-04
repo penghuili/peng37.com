@@ -28,7 +28,7 @@ export default function Layout({
   const router = useRouter();
 
   return (
-    <AppContainer theme={theme} themeMode="dark">
+    <AppContainer theme={theme} themeMode="light">
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
