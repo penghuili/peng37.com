@@ -22,6 +22,18 @@ export default function Home() {
       <Spacer size="2rem" />
 
       <Product
+        date="2023-09-10"
+        logo="/images/file37.png"
+        link="https://file.peng37.com/"
+        name="File37"
+        pitch="Cloud storage. Encrypted."
+      />
+
+      <Spacer size="48px" />
+      <Divider />
+      <Spacer size="48px" />
+
+      <Product
         date="2023-07-24"
         logo="/images/note37.png"
         link="https://note.peng37.com/"
