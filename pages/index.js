@@ -60,7 +60,7 @@ export default function Home() {
       <Product
         date="2023-02-26"
         logo="/images/link37.png"
-        link="/link37"
+        link="/link37/"
         linkTarget="_self"
         name="Link37"
         pitch="Your browser's start page. Encrypted."

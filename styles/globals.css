@@ -2,20 +2,3 @@ html,
 body * {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* image in blog */
-.peng-blog img[src^="/images/blog"] {
-  width: 100%;
-  max-width: 600px;
-}
-
-/* code block in blog */
-.peng-blog pre {
-  max-width: calc(100vw - 2rem);
-  overflow-x: auto;
-}
-
-/* Links in blog */
-.peng-blog a {
-  color: white;
-}
