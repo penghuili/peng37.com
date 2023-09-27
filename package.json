@@ -1,26 +1,18 @@
 {
-  "private": true,
+  "name": "peng37.com",
+  "version": "1.0.0",
+  "description": "peng37.com",
   "scripts": {
-    "build": "next build",
-    "copyshared": "rm -rf shared && mkdir shared && cp -a ../sharedjs/lib/js shared/js && cp -a ../sharedjs/lib/react-pure shared/react-pure",
-    "deploy": "npm run build && node scripts/upload.js",
-    "dev": "next dev",
-    "invalidate": "aws cloudfront create-invalidation --distribution-id E3AZKUZ20BU7ZI --paths \"/\"",
-    "newpost": "node scripts/new-post.js",
-    "start": "next start",
-    "upload": "aws s3 sync out s3://peng37.com --delete --cache-control max-age=0,no-cache,no-store,must-revalidate"
+    "start": "npm run build && http-server build",
+    "build": "node scripts/build.js",
+    "deploy": "node scripts/build.js && node scripts/upload.js"
   },
-  "dependencies": {
-    "date-fns": "2.29.3",
+  "devDependencies": {
+    "date-fns": "2.30.0",
     "gray-matter": "4.0.3",
-    "grommet": "2.31.0",
-    "grommet-icons": "4.10.0",
-    "next": "13.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "remark": "14.0.2",
-    "remark-external-links": "9.0.1",
-    "remark-html": "15.0.2",
-    "styled-components": "5.3.9"
+    "he": "1.2.0",
+    "html-minifier": "4.0.0",
+    "http-server": "14.1.1",
+    "marked": "9.0.3"
   }
 }
