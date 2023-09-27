@@ -4,8 +4,11 @@ title: peng37
 
 # Do you feel comfortable sending your personal data to their servers, without encryption?
 
+<br />
+
 ## Everything below encrypts all your data. No one can read it but you.
 
+<br />
 <br />
 <br />
 
