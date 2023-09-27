@@ -7,6 +7,14 @@ const minifyHtml = require('html-minifier').minify;
 
 const { wrapHtml } = require('./components');
 
+// Open link in new tab
+const renderer = new marked.Renderer();
+renderer.link = function(href, title, text) {
+  const link = marked.Renderer.prototype.link.call(this, href, title, text);
+  return href.startsWith('http') ? link.replace("<a", `<a target="_blank" rel="noopener noreferrer" `) : link;
+};
+marked.setOptions({ renderer });
+
 function parseMarkdownContent(markdownContent) {
   const parsedContent = matter(markdownContent);
   const htmlContent = marked(parsedContent.content);
