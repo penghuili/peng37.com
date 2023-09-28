@@ -12,7 +12,7 @@ title: peng37
 <br />
 <br />
 
-### [File37](https://file.peng37.com/): Cloud storage. Encrypted.
+### [File37](/file37/): Cloud storage. Encrypted.
 
 <img src="/assets/file37.png" alt="File37" width="80" />
 

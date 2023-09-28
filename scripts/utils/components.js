@@ -134,6 +134,7 @@ const footer = `
 
 <footer>
 <a href="/">Home</a>
+<a href="/encryption/">Encryption</a>
 <a href="/blog/">Blog</a>
 <a href="/contact/">Contact</a>
 <a target="_blank" rel="noopener noreferrer" href="https://buy.stripe.com/14k3fYcz633kb2oeV1">Buy me a Beer 🍺</a>
