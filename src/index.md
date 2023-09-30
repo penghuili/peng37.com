@@ -1,5 +1,5 @@
 ---
-title: peng37
+title: Encrypt37
 ---
 
 # Do you feel comfortable sending your personal data to their servers, without encryption?
@@ -16,15 +16,15 @@ title: peng37
 
 <img src="/assets/file37.png" alt="File37" width="80" />
 
-### [Note37](https://note.peng37.com/): Rich text notes. Encrypted.
+### [Note37](https://note.encrypt37.com/): Rich text notes. Encrypted.
 
 <img src="/assets/note37.png" alt="Note37" width="80" />
 
-### [Link37](https://link.peng37.com/): Your browser's start page. Encrypted.
+### [Link37](https://link.encrypt37.com/): Your browser's start page. Encrypted.
 
 <img src="/assets/link37.png" alt="Link37" width="80" />
 
-### [Watcher37](https://link.peng37.com/): Get notified when web pages change. Encrypted.
+### [Watcher37](https://link.encrypt37.com/): Get notified when web pages change. Encrypted.
 
 <img src="/assets/watcher37.png" alt="Watcher37" width="80" />
 

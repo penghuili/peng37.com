@@ -5,9 +5,9 @@ backLabel: <
 backUrl: /blog
 ---
 
-I am building [Watcher37](https://watcher.peng37.com/), a key step is to find the CSS selector of an element.
+I am building [Watcher37](https://watcher.encrypt37.com/), a key step is to find the CSS selector of an element.
 
-It's super easy to [do this on a computer](https://watcher.peng37.com/selector) with browser dev tools.
+It's super easy to [do this on a computer](https://watcher.encrypt37.com/selector) with browser dev tools.
 
 It turns out, it's also possible to do the same with your Android phone, for example, using the [Kiwi browser](https://kiwibrowser.com/).
 
@@ -31,4 +31,4 @@ This is how I do it:
 
 ---
 
-Have fun debugging on your android, and give [Watcher37](https://watcher.peng37.com/) a try.
+Have fun debugging on your android, and give [Watcher37](https://watcher.encrypt37.com/) a try.

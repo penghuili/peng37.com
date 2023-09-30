@@ -1,7 +1,7 @@
 {
-  "name": "peng37.com",
+  "name": "encrypt37.com",
   "version": "1.0.0",
-  "description": "peng37.com",
+  "description": "encrypt37.com",
   "scripts": {
     "start": "npm run build && http-server build",
     "build": "node scripts/build.js",

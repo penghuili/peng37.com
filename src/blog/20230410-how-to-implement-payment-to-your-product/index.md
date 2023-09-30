@@ -5,7 +5,7 @@ backLabel: <
 backUrl: /blog
 ---
 
-I am building [Watcher37](https://watcher.peng37.com/) and [Link37](https://link.peng37.com/), and I want to add payment functionality to them. But I also don't want to spend too much time on this.
+I am building [Watcher37](https://watcher.encrypt37.com/) and [Link37](https://link.encrypt37.com/), and I want to add payment functionality to them. But I also don't want to spend too much time on this.
 
 The first solution I tried is using [ko-fi](https://ko-fi.com/), I set up a shop there, and added 5 tickets. After you buy a ticket, you will get a txt file containing a ticket id. Then you can use the id in Watcher37 or Link37 to finish the payment. In the backend I will update the `expiresAt` of your account to 1 year later.
 
@@ -64,6 +64,6 @@ And for the webhook, mine looks like this:
 ```
 ---
 
-Hope this helps, and give [Watcher37](https://watcher.peng37.com/) and [Link37](https://link.peng37.com/) a try :)
+Hope this helps, and give [Watcher37](https://watcher.encrypt37.com/) and [Link37](https://link.encrypt37.com/) a try :)
 
 Btw, I am using [claudiajs](https://www.claudiajs.com/) for my backend.

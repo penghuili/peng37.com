@@ -1,5 +1,5 @@
 ---
-title: 'peng37: How encryption works here?'
+title: 'Encrypt37: How encryption works here?'
 ---
 
 I use the famous [openpgpjs](https://github.com/openpgpjs/openpgpjs) algorithm (used by [Proton](https://proton.me/) to

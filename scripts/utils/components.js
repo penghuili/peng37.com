@@ -1,6 +1,6 @@
 function getHtmlHead({ title, description }) {
   const defaultTitle =
-    'peng37.com - Creator of File37, Note37, Watcher37, Link37, Friend37, Encrypt37';
+    'encrypt37.com - Creator of File37, Note37, Watcher37, Link37, Friend37, Encrypt37';
 
   return `<!DOCTYPE html>
   <html>
@@ -25,7 +25,7 @@ function getHtmlHead({ title, description }) {
       />
       <meta
         property="og:image"
-        content="https://peng37.com/assets/android-icon-192x192.png"
+        content="https://encrypt37.com/assets/android-icon-192x192.png"
       />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@peng37com" />
@@ -39,7 +39,7 @@ function getHtmlHead({ title, description }) {
       />
       <meta
         name="twitter:image"
-        content="https://peng37.com/assets/android-icon-192x192.png"
+        content="https://encrypt37.com/assets/android-icon-192x192.png"
       />
 
       <link
