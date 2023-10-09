@@ -58,6 +58,8 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### No tracking.
 
+### No AI.
+
 <br />
 <br />
 
@@ -68,7 +70,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 # AND
 
-**View all posts in a timeline**
+### View all posts in a timeline
 
 <img src="/assets/encrypt37-1.png" alt="View all posts in a timeline" width="340px" />
 
@@ -76,7 +78,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-**Write long post with images**
+### Write long post with images
 
 <img src="/assets/encrypt37-2.png" alt="Write long post with images" width="340px" />
 
@@ -84,7 +86,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-**Organize posts with tags and filter by time range**
+### Organize posts with tags and filter by time range
 
 <img src="/assets/encrypt37-3.png" alt="Organize posts with tags" width="340px" />
 
@@ -92,7 +94,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-**One click to cover your screen (Close the door!)**
+### One click to cover your screen (Close the door!)
 
 <img src="/assets/encrypt37-4.png" alt="One click to cover your screen (Close the door!)" width="340px" />
 
