@@ -2,7 +2,7 @@
 title: 'Encrypt37: How encryption works here?'
 ---
 
-I use the famous [openpgpjs](https://github.com/openpgpjs/openpgpjs) algorithm (used by [Proton](https://proton.me/) to
+I use the famous [openpgpjs](https://github.com/openpgpjs/openpgpjs) library (used by [Proton](https://proton.me/)) to
 do the end-to-end encryption. See what is PGP [here](https://proton.me/blog/what-is-pgp-encryption).
 
 ## When you signup:
