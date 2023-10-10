@@ -1,5 +1,7 @@
 ---
 title: 'Encrypt37: How encryption works here?'
+backLabel: <
+backUrl: /
 ---
 
 I use the famous [openpgpjs](https://github.com/openpgpjs/openpgpjs) library (used by [Proton](https://proton.me/)) to

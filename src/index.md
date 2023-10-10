@@ -58,7 +58,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### No tracking.
 
-### No AI.
+### No AI (Proudly).
 
 <br />
 <br />
