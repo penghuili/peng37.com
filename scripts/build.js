@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { parseMarkdownContent, parseMarkdownFile } = require('./utils/markdown');
+const { parseMarkdownFile } = require('./utils/markdown');
 const { scanAllSrcFiles } = require('./utils/files');
+const builtBlogs = require('./built-blogs.json');
 
 const buildPath = 'build';
 if (fs.existsSync(buildPath)) {
@@ -11,16 +12,23 @@ fs.mkdirSync(buildPath);
 
 const { markdownUrls, assetUrls } = scanAllSrcFiles();
 
-const parsedMarkdowns = markdownUrls.map(url => {
-  const { meta, html } = parseMarkdownFile(url);
+const parsedMarkdowns = markdownUrls
+  .filter(url => !builtBlogs[url])
+  .map(url => {
+    if (url.includes('/blog/') && url !== 'src/blog/index.md') {
+      builtBlogs[url] = true;
+    }
+    const { meta, html } = parseMarkdownFile(url);
 
-  return {
-    title: meta.title,
-    date: meta.date,
-    url,
-    html,
-  };
-});
+    return {
+      title: meta.title,
+      date: meta.date,
+      url,
+      html,
+    };
+  });
+
+fs.writeFileSync('./scripts/built-blogs.json', JSON.stringify(builtBlogs, null, 2));
 
 // create html files
 parsedMarkdowns.forEach(markdown => {
@@ -39,26 +47,3 @@ assetUrls.forEach(url => {
   const imagePath = `${assetsPath}/${path.basename(url)}`;
   fs.copyFileSync(url, imagePath);
 });
-
-// generate blog index.html
-const blogIndexMD = `---
-title: Blog
-backLabel: <
-backUrl: /
----
-
-Posts:
-
-${parsedMarkdowns
-  .filter(post => post.url.includes('/blog/'))
-  .sort((a, b) => (b.date > a.date ? 1 : -1))
-  .map(post => {
-    const parts = post.url.split('/');
-    parts.pop();
-    const name = parts.pop();
-    return `- [${post.title}](/blog/${name}) - ${post.date}`;
-  })
-  .join('\n')}
-`;
-const parsedBlogIndex = parseMarkdownContent(blogIndexMD);
-fs.writeFileSync(`build/blog/index.html`, parsedBlogIndex.html);

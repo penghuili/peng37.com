@@ -1,4 +1,5 @@
 const fs = require('fs');
+const builtBlogs = require('../built-blogs.json');
 
 function scanFolder(fullPath, markdownUrls, assetUrls) {
   const stats = fs.statSync(fullPath);
@@ -15,8 +16,10 @@ function scanFolder(fullPath, markdownUrls, assetUrls) {
 
   if (stats.isDirectory()) {
     if (fullPath !== 'src') {
-      const buildPath = `${fullPath.replace('src', 'build')}`;
-      fs.mkdirSync(buildPath);
+      if (!builtBlogs[`${fullPath}/index.md`]) {
+        const buildPath = `${fullPath.replace('src', 'build')}`;
+        fs.mkdirSync(buildPath);
+      }
     }
 
     fs.readdirSync(fullPath).forEach(file => {

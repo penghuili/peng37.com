@@ -94,6 +94,22 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
+### Today in history
+
+<img src="/assets/encrypt37-5.png" alt="Today in history" width="340px" />
+
+<br />
+<br />
+<br />
+
+### Export post as PDF
+
+<img src="/assets/encrypt37-6.png" alt="Export post as PDF" width="340px" />
+
+<br />
+<br />
+<br />
+
 ### One click to cover your screen (Close the door!)
 
 <img src="/assets/encrypt37-4.png" alt="One click to cover your screen (Close the door!)" width="340px" />
