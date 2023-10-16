@@ -2,7 +2,7 @@
 title: 'Encrypt37: Safe corner for your words and files.'
 ---
 
-<a href="https://www.producthunt.com/posts/encrypt37?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-encrypt37" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=418999&theme=light" alt="Encrypt37 - Safe&#0032;corner&#0032;for&#0032;your&#0032;words&#0032;and&#0032;files | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<img src="/assets/encrypt37.png" alt="Encrypt37 logo" width="150px" />
 
 # Do you feel comfortable sending your personal data to their servers, without encryption?
 
@@ -52,7 +52,11 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-# Dance like nobody's watching.
+# Dance like nobody's watching
+
+<br />
+
+<img src="/assets/dance.gif" alt="Dance like nobody's watching" width="340px" />
 
 <br />
 <br />
@@ -120,9 +124,9 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-### One click to cover your screen (Close the door!)
+### One click to cover your screen
 
-<img src="/assets/encrypt37-4.png" alt="One click to cover your screen (Close the door!)" width="340px" />
+<img src="/assets/encrypt37-4.png" alt="One click to cover your screen" width="340px" />
 
 <br />
 <br />
@@ -133,11 +137,13 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ## Pricing
 
+<br />
+
 600GB of storage.
 
 14 days free trial.
 
-Then only **$6** per month or **$60** per year.
+Then only **$6** per month or **$60** per year (SAVE 16.6%).
 
 <br />
 
