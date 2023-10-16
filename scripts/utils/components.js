@@ -140,7 +140,7 @@ const footer = `
 <a href="/privacy/">Privacy</a>
 <a href="/terms/">Terms</a>
 <a href="/contact/">Contact</a>
-<a target="_blank" rel="noopener noreferrer" href="https://buy.stripe.com/14k3fYcz633kb2oeV1">Buy me a Beer 🍺</a>
+<a target="_blank" rel="noopener noreferrer" href="https://buy.stripe.com/14k3fYcz633kb2oeV1">🍺</a>
 </footer>`;
 
 function wrapHtml(html, { title, description, backLabel, backUrl, date }) {
