@@ -2,7 +2,7 @@
 title: 'Encrypt37: Safe corner for your words and files.'
 ---
 
-<img src="/assets/encrypt37.png" alt="Encrypt37 logo" width="150px" />
+<img src="/assets/encrypt37-logo-231017.png" alt="Encrypt37 logo" width="150px" />
 
 # Do you feel comfortable sending your personal data to their servers, without encryption?
 
@@ -86,7 +86,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### View all posts in a timeline
 
-<img src="/assets/encrypt37-1.png" alt="View all posts in a timeline" width="340px" />
+<img src="/assets/encrypt37-1-231017.png" alt="View all posts in a timeline" width="340px" />
 
 <br />
 <br />
@@ -94,7 +94,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### Write long post with images
 
-<img src="/assets/encrypt37-2.png" alt="Write long post with images" width="340px" />
+<img src="/assets/encrypt37-2-231017.png" alt="Write long post with images" width="340px" />
 
 <br />
 <br />
@@ -102,9 +102,9 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### Organize posts with tags
 
-### filter by time range
+### Filter by time range
 
-<img src="/assets/encrypt37-3.png" alt="Organize posts with tags" width="340px" />
+<img src="/assets/encrypt37-3-231017.png" alt="Organize posts with tags" width="340px" />
 
 <br />
 <br />
@@ -112,7 +112,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### Today in history
 
-<img src="/assets/encrypt37-5.png" alt="Today in history" width="340px" />
+<img src="/assets/encrypt37-4-231017.png" alt="Today in history" width="340px" />
 
 <br />
 <br />
@@ -120,7 +120,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### Export post as PDF
 
-<img src="/assets/encrypt37-6.png" alt="Export post as PDF" width="340px" />
+<img src="/assets/encrypt37-5-231017.png" alt="Export post as PDF" width="340px" />
 
 <br />
 <br />
@@ -128,7 +128,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 ### One click to cover your screen
 
-<img src="/assets/encrypt37-4.png" alt="One click to cover your screen" width="340px" />
+<img src="/assets/encrypt37-6-231017.png" alt="One click to cover your screen" width="340px" />
 
 <br />
 <br />
