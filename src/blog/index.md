@@ -6,6 +6,7 @@ backUrl: /
 
 Posts:
 
+- [How to protect my authenticator app?](/blog/20231021-how-to-protect-authenticator-app) - 2023-10-25
 - [Why Encrypt37?](/blog/20231009-why-encrypt37) - 2023-10-09
 - [How to deploy React app to AWS S3 without cache problems?](/blog/20230925-deploy-react-app-to-aws-s3-without-cache-problems) - 2023-09-25
 - [How to implement payment to your product?](/blog/20230410-how-to-implement-payment-to-your-product) - 2023-04-10
