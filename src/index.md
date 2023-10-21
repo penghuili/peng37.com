@@ -4,13 +4,13 @@ title: 'Encrypt37: Safe corner for your words and files.'
 
 <img src="/assets/encrypt37-logo-231017.png" alt="Encrypt37 logo" width="150px" />
 
-# Do you feel comfortable sending your personal data to their servers, without encryption?
+Do you feel comfortable sending your personal data to their servers, without encryption?
 
 <br />
 
-## With Encrypt37, nobody, even those who have access to the database, can read your data.
+With Encrypt37, nobody, even those who have access to the database, can read your data.
 
-### Because all your words and files are encrypted on your device before they are sent to the server.
+Because all your words and files are encrypted on your device before they are sent to the server.
 
 <br />
 <br />
@@ -66,13 +66,13 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-# AND
+AND
 
-### No ads.
+No ads.
 
-### No tracking.
+No tracking.
 
-### No AI (Proudly).
+No AI (Proudly).
 
 <br />
 <br />
@@ -82,9 +82,9 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-# AND
+AND
 
-### View all posts in a timeline
+View all posts in a timeline
 
 <img src="/assets/encrypt37-1-231017.png" alt="View all posts in a timeline" width="340px" />
 
@@ -92,7 +92,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-### Write long post with images
+Write long post with images
 
 <img src="/assets/encrypt37-2-231017.png" alt="Write long post with images" width="340px" />
 
@@ -100,9 +100,9 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-### Organize posts with tags
+Organize posts with tags
 
-### Filter by time range
+Filter by time range
 
 <img src="/assets/encrypt37-3-231017.png" alt="Organize posts with tags" width="340px" />
 
@@ -110,7 +110,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-### Today in history
+Today in history
 
 <img src="/assets/encrypt37-4-231017.png" alt="Today in history" width="340px" />
 
@@ -118,7 +118,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-### Export post as PDF
+Export post as PDF
 
 <img src="/assets/encrypt37-5-231017.png" alt="Export post as PDF" width="340px" />
 
@@ -126,7 +126,7 @@ And check the [source code](https://github.com/penghuili/File37)
 <br />
 <br />
 
-### One click to cover your screen
+One click to cover your screen
 
 <img src="/assets/encrypt37-6-231017.png" alt="One click to cover your screen" width="340px" />
 
@@ -137,7 +137,7 @@ And check the [source code](https://github.com/penghuili/File37)
 
 <br />
 
-## Pricing
+Pricing
 
 <br />
 
