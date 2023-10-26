@@ -1,6 +1,5 @@
 function getHtmlHead({ title, description }) {
-  const defaultTitle =
-    'encrypt37.com - Creator of File37, Note37, Watcher37, Link37, Friend37, Encrypt37';
+  const defaultTitle = 'peng37.com - Creator of Encrypt37, Watcher37, Link37';
 
   return `<!DOCTYPE html>
   <html>
@@ -134,13 +133,9 @@ const footer = `
 
 <footer>
 <a href="/">Home</a>
-<a href="/encryption/">Encryption</a>
 <a href="/blog/">Blog</a>
-<a href="/something-else/">Something else</a>
-<a href="/privacy/">Privacy</a>
-<a href="/terms/">Terms</a>
 <a href="/contact/">Contact</a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/penghuili/encrypt37.com">Source code</a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/penghuili/peng37.com">Source code</a>
 <a target="_blank" rel="noopener noreferrer" href="https://buy.stripe.com/14k3fYcz633kb2oeV1">🍺</a>
 </footer>`;
 
