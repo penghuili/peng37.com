@@ -48,6 +48,13 @@ export default function HomePage() {
           title="Soundice"
           description="Get music or podcast randomly from your Spotify account."
         />
+
+        <Product
+          logo="/assets/encrypt37free.png"
+          link="https://free.encrypt37.com?ref=peng37"
+          title="Encrypt37"
+          description="End-to-end encrypt text and files, and get raw result."
+        />
       </Section>
 
       <Divider style={{ margin: '6rem 0 2rem' }}>
