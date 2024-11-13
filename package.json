@@ -2,77 +2,35 @@
   "name": "peng37.com",
   "version": "1.0.0",
   "description": "peng37.com",
+  "scripts": {
+    "build": "next build",
+    "start": "next dev -p 4000",
+    "cc": "node scripts/commit.js",
+    "dd": "node scripts/upload.js"
+  },
   "dependencies": {
-    "@tiptap/extension-link": "2.1.11",
-    "@tiptap/extension-task-item": "2.1.11",
-    "@tiptap/extension-task-list": "2.1.11",
-    "@tiptap/extension-typography": "2.1.11",
-    "@tiptap/pm": "2.1.11",
-    "@tiptap/react": "2.1.11",
-    "@tiptap/starter-kit": "2.1.11",
-    "apexcharts": "3.41.0",
-    "axios": "1.6.0",
-    "copy-to-clipboard": "3.3.3",
-    "date-fns": "2.29.3",
-    "eventemitter3": "5.0.0",
-    "framer-motion": "10.16.4",
-    "grommet": "2.31.0",
-    "grommet-icons": "4.10.0",
-    "jwt-decode": "3.1.2",
-    "lodash.clonedeep": "4.5.0",
-    "lodash.get": "4.4.2",
-    "lodash.set": "4.3.2",
-    "lodash.uniqby": "4.7.0",
-    "openpgp": "5.5.0",
-    "patch-package": "7.0.2",
-    "qrcode.react": "3.1.0",
-    "ramda": "0.29.1",
+    "@douyinfe/semi-next": "2.68.2",
+    "@douyinfe/semi-ui": "2.68.2",
+    "@hirohe/react-watermark": "0.5.0",
+    "@remixicon/react": "4.4.0",
+    "@semi-bot/semi-theme-easyy": "1.0.5",
+    "bowser": "2.11.0",
+    "next": "14.2.15",
     "react": "18.2.0",
-    "react-apexcharts": "1.4.1",
     "react-dom": "18.2.0",
-    "react-redux": "8.0.5",
-    "react-router-dom": "6.3.0",
-    "redux": "4.2.0",
-    "redux-saga": "1.2.2",
-    "styled-components": "5.3.6",
-    "wouter": "2.9.0"
+    "rough-notation": "0.5.1",
+    "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "13.4.0",
-    "@testing-library/user-event": "13.5.0",
-    "eslint": "8.18.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-react": "7.30.1",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "prettier": "2.7.1",
-    "preval.macro": "5.0.0",
-    "react-scripts": "5.0.1",
-    "react-snap": "1.23.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "scripts": {
-    "copyshared": "rm -rf src/shared && mkdir src/shared && cp -a ../sharedjs/lib/js src/shared/js && cp -a ../sharedjs/lib/react src/shared/react && cp -a ../sharedjs/lib/react-pure src/shared/react-pure",
-    "start": "npm run copyshared && ESLINT_NO_DEV_ERRORS=true BROWSER=none react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build && find ./build -name '.DS_Store' -delete",
-    "postbuild": "react-snap",
-    "deploy": "npm run copyshared && npm run build && aws s3 sync build s3://peng37.com --cache-control max-age=0,no-cache,no-store,must-revalidate --content-type text/html --acl public-read"
+    "babel-plugin-import": "1.13.8",
+    "dotenv": "16.4.5",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.16",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-react": "7.35.0",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-sonarjs": "1.0.4",
+    "prettier": "3.3.3",
+    "sass": "1.65.1"
   }
 }

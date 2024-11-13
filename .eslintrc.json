@@ -8,7 +8,8 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:import/recommended"
+    "plugin:import/recommended",
+    "plugin:sonarjs/recommended-legacy"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,9 +18,19 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "sonarjs"],
   "rules": {
     "react/prop-types": 0,
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    "react/display-name": 0,
+    "sonarjs/no-duplicate-string": 0,
+    "react/jsx-no-target-blank": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
   }
 }
