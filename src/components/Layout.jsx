@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
 
             <Link href="https://blog.peng37.com" target="_blank">
               <Button theme="outline" icon={<RiParenthesesLine />}>
-                Glog
+                Blog
               </Button>
             </Link>
 
