@@ -49,6 +49,13 @@ export default function HomePage() {
         />
 
         <Product
+          logo="https://moon.peng37.com/icons/icon-192.png"
+          link="https://moon.peng37.com"
+          title="Where is moon?"
+          description="Follow moon from where you are."
+        />
+
+        <Product
           logo="/assets/encrypt37free.png"
           link="https://free.encrypt37.com?ref=peng37"
           title="Encrypt37"
@@ -87,8 +94,8 @@ function Product({ logo, link, title, description }) {
       {!!logo && (
         <Image
           src={logo}
-          width={32}
-          height={32}
+          width={48}
+          height={48}
           preview={false}
           style={{ marginRight: '0.5rem', display: 'block' }}
         />
