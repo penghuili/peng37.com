@@ -49,10 +49,10 @@ export default function HomePage() {
         />
 
         <Product
-          logo="https://moon.peng37.com/icons/icon-192.png"
-          link="https://moon.peng37.com"
-          title="Where is moon?"
-          description="Follow moon from where you are."
+          logo="https://moonfinder.live/icons/icon-192.png"
+          link="https://moonfinder.live"
+          title="Moon Finder"
+          description="Little page that helps you find the moon."
         />
 
         <Product
