@@ -51,7 +51,7 @@ export default function HomePage() {
         <Product
           logo="https://moonfinder.live/icons/icon-192.png"
           link="https://moonfinder.live"
-          title="Moon Finder"
+          title="moon finder"
           description="Little page that helps you find the moon."
         />
 
