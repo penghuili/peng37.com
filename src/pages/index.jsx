@@ -1,6 +1,4 @@
-import Divider from '@douyinfe/semi-ui/lib/es/divider';
-import Image from '@douyinfe/semi-ui/lib/es/image';
-import Typography from '@douyinfe/semi-ui/lib/es/typography';
+import { Divider, Image, Typography } from '@douyinfe/semi-ui';
 import React from 'react';
 
 import Layout from '../components/Layout';
@@ -11,7 +9,7 @@ import { Section } from '../components/Section';
 export default function HomePage() {
   return (
     <Layout page="home">
-      <PageHeader title="peng37.com" />
+      <PageHeader title="Peng" />
 
       <Section hasGrid p="3rem 0.5rem">
         <Product
@@ -37,7 +35,7 @@ export default function HomePage() {
       </Section>
 
       <Divider style={{ margin: '6rem 0 2rem' }}>
-        <Typography.Title heading={2}>Something free</Typography.Title>
+        <Typography.Title heading={2}>Something Free</Typography.Title>
       </Divider>
 
       <Section p="0 0.5rem">
@@ -64,7 +62,7 @@ export default function HomePage() {
       </Section>
 
       <Divider style={{ margin: '6rem 0 2rem' }}>
-        <Typography.Title heading={2}>Open source</Typography.Title>
+        <Typography.Title heading={2}>Open Source</Typography.Title>
       </Divider>
 
       <Section p="0 0.5rem">

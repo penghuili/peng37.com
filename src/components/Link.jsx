@@ -1,5 +1,5 @@
-import Typography from "@douyinfe/semi-ui/lib/es/typography";
-import React from "react";
+import { Typography } from '@douyinfe/semi-ui';
+import React from 'react';
 
 export function Link({ href, onClick, target, children, style, small, m }) {
   return (
@@ -9,10 +9,10 @@ export function Link({ href, onClick, target, children, style, small, m }) {
         target,
       }}
       onClick={onClick}
-      size={small ? "small" : undefined}
+      size={small ? 'small' : undefined}
       underline
       style={{
-        margin: m || "0",
+        margin: m || '0',
         ...(style || {}),
       }}
     >

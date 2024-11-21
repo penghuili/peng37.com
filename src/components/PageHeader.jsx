@@ -1,11 +1,9 @@
-import Button from '@douyinfe/semi-ui/lib/es/button';
-import Image from '@douyinfe/semi-ui/lib/es/image';
+import { Button, Image, Spin } from '@douyinfe/semi-ui';
 import { RiArrowLeftLine } from '@remixicon/react';
 import { useRouter } from 'next/router';
 import React from 'react';
 
 import { Flex } from './Flex';
-import { LazySpin } from './LazySpin';
 import { Section } from './Section';
 
 export function PageHeader({ title, right, isLoading, hasBack }) {
@@ -45,7 +43,7 @@ export function PageHeader({ title, right, isLoading, hasBack }) {
     >
       <Flex direction="row" justify="between" align="center" titleAlign="left" p="0.5rem">
         <Flex direction="row" align="center">
-          {renderIconElement()} {title} {isLoading && <LazySpin style={{ marginLeft: '1rem' }} />}
+          {renderIconElement()} {title} {isLoading && <Spin style={{ marginLeft: '1rem' }} />}
         </Flex>
         {right && (
           <Flex direction="row" align="center">

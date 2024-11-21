@@ -1,5 +1,4 @@
-import Button from '@douyinfe/semi-ui/lib/es/button';
-import Divider from '@douyinfe/semi-ui/lib/es/divider';
+import { Button, Divider } from '@douyinfe/semi-ui';
 import { RiBeerLine, RiMailLine, RiParenthesesLine } from '@remixicon/react';
 import Head from 'next/head';
 import React from 'react';
